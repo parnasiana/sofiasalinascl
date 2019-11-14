@@ -3,6 +3,17 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6,
+.navbar-default{
   font-family: 'Amatic SC', cursive;
+}
+
+.navbar-default .nav > li>a, .navbar-default .nav>li>a:focus{
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.navbar{
+  border: none;
+  min-height: 70px;
 }

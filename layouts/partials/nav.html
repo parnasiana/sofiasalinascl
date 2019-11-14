@@ -10,7 +10,9 @@
                 <span class="icon-bar"></span>
             </button>
             {{ with .Site.Params.navigation.brand }}
-                <a class="navbar-brand page-scroll" href="#page-top">{{ . | markdownify }}</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="https://letb.s3-sa-east-1.amazonaws.com/SS/C%C3%93DIGO/SS_logo_nav.png" class="SSnav-logo">
+                </a>
             {{ end }}
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
