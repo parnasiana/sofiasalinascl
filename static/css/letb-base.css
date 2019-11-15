@@ -59,3 +59,10 @@ hr{
   text-align: justify;
   font-weight: lighter;
 }
+
+.sofia{
+  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/SS/C%C3%93DIGO/SS_context17_brown.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
