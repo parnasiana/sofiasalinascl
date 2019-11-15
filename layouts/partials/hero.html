@@ -6,13 +6,14 @@
                 <h1>{{ . | markdownify  }}</h1>
             {{ end }}
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
-                <hr>
             {{ end }}
             {{ with .Site.Params.hero.subtitle }}
                 <p>{{ . | markdownify }}</p>
             {{ end }}
+        </div>
+        <div>
             {{ with .Site.Params.hero.buttonText }}
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+                <a href="#about" class="page-scroll arrow-ss"></a>
             {{ end }}
         </div>
     </div>

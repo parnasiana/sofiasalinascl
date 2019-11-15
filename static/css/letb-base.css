@@ -1,3 +1,8 @@
+body,
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -16,4 +21,41 @@ h6,
 .navbar{
   border: none;
   min-height: 70px;
+}
+
+.navbar-nav>li>a{
+  padding-top: 24px;
+}
+
+header .header-content{
+  text-align: right;
+}
+
+header{
+  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/SS/C%C3%93DIGO/DSC_0009.JPG);
+}
+
+p {
+  margin-right: none;
+}
+
+.bg-primary{
+  background-color: #432918;
+}
+
+.arrow-ss{
+
+}
+
+h2{
+  font-size: 50px;
+}
+
+hr{
+  max-width: 80px;
+}
+
+.text-faded{
+  text-align: justify;
+  font-weight: lighter;
 }

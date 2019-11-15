@@ -47,8 +47,8 @@ theme = "hugo-creative-theme"
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		headline    = "hola, soy sofía salinas, orfebre"
+		description = "Hace algunos años le di un giro a mi vida y comencé a crear joyas. En la joyería encontré un lugar donde conectarme con un oficio simbólico, lleno de detalles que encapsulan emociones, momentos, procesos de las personas que buscan sellar los hitos de su historia con amuletos que los acompañen, les den fuerza y les recuerden de dónde vienen. Me gusta trabajar los diseños en conjunto con quien lo encarga, entender qué es lo que buscan plasmar. Quiero pensar que el trabajo que llevo a cabo honra en parte lo que ellos han vivido y me nutre en un permanente aprendizaje."
 		buttonText  = "Get started!"
 
 
