@@ -3,8 +3,22 @@
 }
 
 .circle-ss-icon{
-  width: 300px;
-  height: 300px;
   border-radius: 300px;
   background-color: #FFF;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.ss-icon {
+  width: 250px;
+  height: 250px;
+  padding: 50px;
 }

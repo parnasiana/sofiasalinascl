@@ -71,6 +71,6 @@ hr{
   background-color: #432918;
 }
 
-.white-title {
+.white-title, a .ss-button-title {
   color: #FFF;
 }
