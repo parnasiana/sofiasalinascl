@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ . }}</h2>
-                    <hr class="primary">
+                    <h2 class="section-heading white-title">{{ . }}</h2>
+                    <hr class="light">
                 </div>
             </div>
         </div>
@@ -14,13 +14,15 @@
         <div class="row">
             {{ range .Site.Params.services.list }}
             <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
-                    <h3>{{ .title }}</h3>
-                    {{ with .description }}
-                        <p class="text-muted">{{ . }}</p>
-                    {{ end }}
-                </div>
+                <a href="#" class="service-box">
+                    <div class="circle-ss-icon">
+                        <img  src="{{ .icon }}" class="wow bounceIn text-primary">
+                    </div>
+                        <h3>{{ .title }}</h3>
+                        {{ with .description }}
+                            <p class="text-muted">{{ . }}</p>
+                        {{ end }}
+                </a>
             </div>
             {{ end }}
         </div>

@@ -66,3 +66,11 @@ hr{
   height: 700px;
   background-size: cover;
 }
+
+#services{
+  background-color: #432918;
+}
+
+.white-title {
+  color: #FFF;
+}
