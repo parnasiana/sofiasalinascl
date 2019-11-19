@@ -18,10 +18,12 @@
                     <div class="circle-ss-icon">
                         <img  src="{{ .icon }}" class="bounceIn text-primary ss-icon">
                     </div>
+                    <div class="ss-class-type">
                         <h3 class="ss-button-title">{{ .title }}</h3>
                         {{ with .description }}
                             <p class="text-muted">{{ . }}</p>
                         {{ end }}
+                    </div>
                 </a>
             </div>
             {{ end }}

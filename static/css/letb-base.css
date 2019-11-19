@@ -3,6 +3,11 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+a:hover, a:focus {
+  color: transparent;
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -43,10 +48,6 @@ p {
   background-color: #432918;
 }
 
-.arrow-ss{
-
-}
-
 h2{
   font-size: 50px;
 }
@@ -71,6 +72,14 @@ hr{
   background-color: #432918;
 }
 
-.white-title, a .ss-button-title {
+.white-title, a .ss-button-title, .text-muted {
   color: #FFF;
+}
+
+.text-muted {
+  font-weight: lighter;
+}
+
+.ss-button-title::after{
+  background-color: #FFF;
 }
