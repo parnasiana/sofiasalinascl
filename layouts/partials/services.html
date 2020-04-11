@@ -13,13 +13,14 @@
     <div class="container">
         <div class="row">
             {{ range .Site.Params.services.list }}
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-md-6 text-center">
                 <a href="#" class="service-box">
                     <div class="circle-ss-icon">
                         <img  src="{{ .icon }}" class="bounceIn text-primary ss-icon">
                     </div>
                     <div class="ss-class-type">
-                        <h3 class="ss-button-title">{{ .title }}</h3>
+                        <h2 class="ss-button-title">{{ .title }}</h3>
+                        <div class="ss-button-line"></div>
                         {{ with .description }}
                             <p class="text-muted">{{ . }}</p>
                         {{ end }}
