@@ -1,0 +1,85 @@
+body,
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover, a:focus {
+  color: transparent;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-default{
+  font-family: 'Amatic SC', cursive;
+}
+
+.navbar-default .nav > li>a, .navbar-default .nav>li>a:focus{
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.navbar{
+  border: none;
+  min-height: 70px;
+}
+
+.navbar-nav>li>a{
+  padding-top: 24px;
+}
+
+header .header-content{
+  text-align: right;
+}
+
+header{
+  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/SS/C%C3%93DIGO/DSC_0009.JPG);
+}
+
+p {
+  margin-right: none;
+}
+
+.bg-primary{
+  background-color: #432918;
+}
+
+h2{
+  font-size: 50px;
+}
+
+hr{
+  max-width: 80px;
+}
+
+.text-faded{
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.sofia{
+  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/SS/C%C3%93DIGO/SS_context17_brown.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+
+#services{
+  background-color: #432918;
+}
+
+.white-title, a .ss-button-title, .text-muted {
+  color: #FFF;
+}
+
+.text-muted {
+  font-weight: lighter;
+}
+
+.ss-button-title::after{
+  background-color: #FFF;
+}
