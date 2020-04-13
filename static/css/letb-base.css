@@ -14,7 +14,8 @@ h3,
 h4,
 h5,
 h6,
-.navbar-default{
+.navbar-default,
+.ss-superphrase {
   font-family: 'Amatic SC', cursive;
 }
 
@@ -84,6 +85,10 @@ hr{
   background-color: #FFF;
 }
 
-#jewery {
+#jewery .container {
   background-color: #F8C900;
+}
+
+.ss-superphrase{
+  font-size: 34px;
 }
