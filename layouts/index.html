@@ -32,9 +32,7 @@
             {{ partial "jewery.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.contact }}
-            {{ partial "contact.html" . }}
-        {{ end }}
+        {{ partial "gallery.html" . }}
 
         {{ if .Site.Data.projects }}
             {{ partial "modals.html" . }}

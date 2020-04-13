@@ -15,7 +15,8 @@ h4,
 h5,
 h6,
 .navbar-default,
-.ss-superphrase {
+.ss-superphrase,
+.square-gallery {
   font-family: 'Amatic SC', cursive;
 }
 
@@ -69,11 +70,11 @@ hr{
   background-size: cover;
 }
 
-#services{
+#services, .square-gallery:hover{
   background-color: #432918;
 }
 
-.white-title, a .ss-button-title, .text-muted {
+.white-title, a .ss-button-title, .text-muted, .square-gallery h2 {
   color: #FFF;
 }
 
@@ -85,10 +86,14 @@ hr{
   background-color: #FFF;
 }
 
-#jewery .container {
+#jewery .container, .square-gallery {
   background-color: #F8C900;
 }
 
 .ss-superphrase{
   font-size: 34px;
+}
+
+.wrap-gallery {
+  background-color: #FFF;
 }

@@ -76,3 +76,24 @@ section {
   margin-left: 10%;
 }
 
+.wrapper-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 620px;
+  justify-content: space-between;
+  padding: 10px 1%;
+}
+
+.square-gallery {
+  width: 32%;
+  height: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.square-gallery h2 {
+  margin-right: 10px;
+}
