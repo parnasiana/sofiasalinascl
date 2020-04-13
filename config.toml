@@ -59,12 +59,12 @@ theme = "hugo-creative-theme"
         [[params.services.list]]
             icon = "https://letb.s3-sa-east-1.amazonaws.com/SS/SS_icon_handsaw.png"
             title = "clases de joyería"
-			description = "aprende la técnica"
+
 
         [[params.services.list]]
 			icon = "https://letb.s3-sa-east-1.amazonaws.com/SS/SS_icon_rings.png"
 			title = "clases para novios"
-			description = "crea tus argollas"
+
 
 
     # Portfolio modals
@@ -75,12 +75,8 @@ theme = "hugo-creative-theme"
         buttonText = "Close"
 
     # Aside section
-	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
-
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+	[params.jewery]
+		headline = "Joyas"
 
 	# Contact section
 	[params.contact]
