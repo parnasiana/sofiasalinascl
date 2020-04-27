@@ -2,7 +2,7 @@ section {
   padding: 0;
 }
 .container{
-  padding-top: 50px;
+  padding: 50px 5%;
   width: 100%;
 }
 .SSnav-logo{
@@ -12,6 +12,9 @@ section {
 .circle-ss-icon{
   border-radius: 300px;
   background-color: #FFF;
+}
+p {
+  padding-bottom: 40px;
 }
 
 .row {
