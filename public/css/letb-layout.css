@@ -104,3 +104,9 @@ p {
 img.ss-logo-footer {
 width: 160px;
 }
+
+footer {
+  background-image: url("https://letb.s3-sa-east-1.amazonaws.com/SS/footer-shape.png");
+  width: 100%;
+  height: auto;
+}
