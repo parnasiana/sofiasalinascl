@@ -1,3 +1,7 @@
+/*!
+INDEX
+ */
+
 body,
 p {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -123,4 +127,15 @@ a.to-rrss-link, .to-contact-text {
 .footer-division-yellow {
   background-color: #F8C900;
 }
+
+/*!
+CONTENT/CLASSES
+ */
+
+.classes-header{
+  background-image: url("https://letb.s3-sa-east-1.amazonaws.com/SS/Seleccion+CONTEXTO/SS_context4.jpg");
+  opacity: 0,5;
+}
+
+
 

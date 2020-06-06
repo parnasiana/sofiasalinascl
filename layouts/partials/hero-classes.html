@@ -1,0 +1,10 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header class="classes-header">
+    <div class="header-content">
+        <div class="header-content-inner">
+            {{ with .Site.Params.heroclasses.slogan }}
+                <h1>{{ . | markdownify  }}</h1>
+            {{ end }}
+        </div>
+    </div>
+</header>

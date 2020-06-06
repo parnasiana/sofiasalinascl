@@ -91,3 +91,8 @@ theme = "hugo-creative-theme"
 	# 	longitude = "-118.499305"
 	# 	maps_api_key = ""
 
+	# Hero section
+	[params.heroclasses]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Clases de Joyería"
+		
