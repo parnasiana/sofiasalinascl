@@ -12,26 +12,6 @@
             {{ partial "hero-classes.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.about }}
-            {{ partial "about.html" . }}
-        {{ end }}
-        <div class="sofia"></div>
-        {{ if .Site.Params.services.list }}
-            {{ partial "services.html" . }}
-        {{ end }}
-
-        {{ if .Site.Data.projects }}
-            {{ partial "portfolio.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.location }}
-            {{ partial "location.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.jewery }}
-            {{ partial "jewery.html" . }}
-        {{ end }}
-
         {{ partial "footer.html" . }}
 
         {{ if .Site.Data.projects }}
