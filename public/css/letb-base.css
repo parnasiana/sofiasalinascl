@@ -61,6 +61,10 @@ h2{
   font-size: 50px;
 }
 
+h3 {
+  font-size: 32px;
+}
+
 hr{
   max-width: 80px;
 }
@@ -103,5 +107,12 @@ hr{
 
 .wrap-gallery {
   background-color: #FFF;
+}
+
+a.to-rrss-link, .to-contact-text {
+  color: #432918;
+  padding: 10px 0;
+  font-size: 21px;
+  margin: 0;
 }
 

@@ -107,7 +107,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px 1%;
+  padding: 24px 1%;
 }
 
 .square-footer{
@@ -115,9 +115,9 @@ p {
   height: 45%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .logo-footer{
-  width: 100px;
+  width: 120px;
 }
