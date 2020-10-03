@@ -114,18 +114,19 @@ hr{
 }
 
 a.to-rrss-link, .to-contact-text {
-  color: #432918;
+  color: #FFF;
   padding: 10px 0;
   font-size: 21px;
   margin: 0;
 }
 
-.footer-division-brown {
-  background-color: #432918;
-}
-
 .footer-division-yellow {
   background-color: #F8C900;
+}
+
+.footer-content {
+  background-color:#999;
+  color: #FFF;
 }
 
 /*!
