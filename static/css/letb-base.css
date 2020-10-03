@@ -133,6 +133,15 @@ a.to-rrss-link, .to-contact-text {
   font-size: 36px;
 }
 
+.owl-dots {
+  background-color: #432918;
+  padding:20px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 0px;
+}
+
 /*!
 CONTENT/CLASSES
  */
