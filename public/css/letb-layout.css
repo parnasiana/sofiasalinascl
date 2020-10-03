@@ -122,9 +122,6 @@ p {
 .footer-division-brown, .footer-division-yellow {
   width: 100%;
   height: 8px;
-} {
-  width: 100%;
-  height: 8px;
 }
 
 .square-footer{
@@ -146,7 +143,6 @@ p {
 .logo-footer{
   width: 120px;
 }
-
 /*!
 CONTENT/CLASSES
  */
