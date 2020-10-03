@@ -8,11 +8,11 @@ $('.owl-carousel').owlCarousel({
             nav:true
         },
         600:{
-            items:3,
+            items:2,
             nav:false
         },
         1000:{
-            items:5,
+            items:3,
             nav:true,
             loop:false
         }
