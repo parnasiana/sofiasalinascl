@@ -147,3 +147,23 @@ p {
 /*!
 CONTENT/CLASSES
  */
+
+ #details-class-j {
+   width: 100%;
+   height: auto;
+   background-color: fff;
+ }
+
+.yellow-border-box{
+  border: solid 2px #F8C900;
+  margin:10px;
+  height: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.obj-class{
+  width: 50%;
+  margin: 20px;
+}

@@ -169,6 +169,10 @@ a.to-rrss-link, .to-contact-text {
 /*!
 CONTENT/CLASES DE JOYERÍA
  */
+
+ header .header-content{
+   top:70%;
+ }
  #clases-joyeria {
    background-image: url("https://letb.s3-sa-east-1.amazonaws.com/SS/Seleccion+CONTEXTO/SS_context10.jpg");
  }
@@ -178,8 +182,9 @@ CONTENT/CLASES DE JOYERÍA
   display: inline-block;
   width: 40px;
   height: 40px;
-  border-top: 6px solid #fff;
-  border-right: 6px solid #fff;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+  margin-top: 100px;
 }
 .arrow-bottom {
   transform: rotate(135deg);
