@@ -142,6 +142,20 @@ a.to-rrss-link, .to-contact-text {
   margin-top: 0px;
 }
 
+.footer-cc-letb {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.footer-cc-letb a {
+  color: #999;
+  font-weight: bold;
+}
+
 /*!
 CONTENT/CLASSES
  */
