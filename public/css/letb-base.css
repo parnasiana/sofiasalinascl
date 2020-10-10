@@ -45,8 +45,18 @@ h6,
   padding-top: 24px;
 }
 
-header .header-content{
+.header-content-inner p {
   text-align: right;
+}
+
+h1 {
+  text-align: right;
+  text-shadow:
+  2px 2px 0 rgba(0, 0, 0, 0.5),
+  -1px -1px 0 rgba(0, 0, 0, 0.5),  
+  1px -1px 0 rgba(0, 0, 0, 0.5),
+  -1px 1px 0 rgba(0, 0, 0, 0.5),
+  1px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 header{
@@ -157,13 +167,20 @@ a.to-rrss-link, .to-contact-text {
 }
 
 /*!
-CONTENT/CLASSES
+CONTENT/CLASES DE JOYERÍA
  */
+ #clases-joyeria {
+   background-image: url("https://letb.s3-sa-east-1.amazonaws.com/SS/Seleccion+CONTEXTO/SS_context10.jpg");
+ }
 
-.classes-header{
-  background-image: url("https://letb.s3-sa-east-1.amazonaws.com/SS/Seleccion+CONTEXTO/SS_context4.jpg");
-  opacity: 0,5;
+
+ .arrow {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-top: 6px solid #fff;
+  border-right: 6px solid #fff;
 }
-
-
-
+.arrow-bottom {
+  transform: rotate(135deg);
+}

@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ss.letb.cl/classes/</loc>
+    <loc>https://ss.letb.cl/clases_joyeria/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ss.letb.cl/clases_novios/</loc>
     <priority>0</priority>
   </url>
   

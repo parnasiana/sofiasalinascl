@@ -12,21 +12,26 @@
     {{ end }}
     <div class="container">
         <div class="row">
-            {{ range .Site.Params.services.list }}
             <div class="col-md-6 text-center">
-                <a href="/classes/" class="service-box">
+                <a href="/clases_joyeria/" target="_blank" class="service-box">
                     <div class="circle-ss-icon">
-                        <img  src="{{ .icon }}" class="bounceIn text-primary ss-icon">
+                        <img  src="https://letb.s3-sa-east-1.amazonaws.com/SS/SS_icon_handsaw.png" class="bounceIn text-primary ss-icon">
                     </div>
                     <div class="ss-class-type">
-                        <h2 class="ss-button-title">{{ .title }}</h3>
-                        {{ with .description }}
-                            <p class="text-muted">{{ . }}</p>
-                        {{ end }}
+                        <h2 class="ss-button-title">clases de joyería</h3>
                     </div>
                 </a>
             </div>
-            {{ end }}
+            <div class="col-md-6 text-center">
+                <a href="/clases_novios/" target="_blank" class="service-box">
+                    <div class="circle-ss-icon">
+                        <img  src="https://letb.s3-sa-east-1.amazonaws.com/SS/SS_icon_rings.png" class="bounceIn text-primary ss-icon">
+                    </div>
+                    <div class="ss-class-type">
+                        <h2 class="ss-button-title">clases para novios</h3>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
