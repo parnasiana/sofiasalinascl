@@ -167,3 +167,19 @@ CONTENT/CLASSES
   width: 50%;
   margin: 20px;
 }
+
+#photo-j, #photo-n{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.j-photo, .n-photo{
+  width: 50%;
+  height: auto;
+}
+
+.j-photo img, .n-photo img {
+  width: 100%;
+}

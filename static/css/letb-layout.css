@@ -168,14 +168,18 @@ CONTENT/CLASSES
   margin: 20px;
 }
 
-#photo-j{
+#photo-j, #photo-n{
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.j-photo{
+.j-photo, .n-photo{
   width: 50%;
   height: auto;
+}
+
+.j-photo img, .n-photo img {
+  width: 100%;
 }

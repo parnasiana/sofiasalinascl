@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
+            {{ partial "nav.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.hero }}
+            {{ partial "hero-clases-novios.html" . }}
+        {{ end }}
+
+        {{ partial "description-class-n.html" . }}
+
+        {{ partial "details-class-n.html" . }}
+
+        {{ partial "photo-n.html" . }}
+
+        {{ partial "footer.html" . }}
+
+        {{ if .Site.Data.projects }}
+            {{ partial "modals.html" . }}
+        {{ end }}
+
+        {{ partial "js.html" . }}
+
+        {{ template "_internal/google_analytics.html" . }}
+    </body>
+</html>
+
 
