@@ -192,3 +192,13 @@ CONTENT/CLASES DE JOYERÍA
 .arrow-bottom {
   transform: rotate(135deg);
 }
+
+@media only screen and (max-width: 768px){
+  #mainNav {
+    background-color:#F8C900 !important;
+  }
+
+  .navbar-brand {
+    height: fit-content;
+  }
+}

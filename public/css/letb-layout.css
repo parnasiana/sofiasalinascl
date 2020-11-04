@@ -171,6 +171,7 @@ CONTENT/CLASSES
 #photo-j, #photo-n{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -182,4 +183,11 @@ CONTENT/CLASSES
 
 .j-photo img, .n-photo img {
   width: 100%;
+}
+
+@media (min-width: 768px){
+
+  .navbar-brand {
+
+  }
 }
