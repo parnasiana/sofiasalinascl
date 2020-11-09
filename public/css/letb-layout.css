@@ -185,9 +185,15 @@ CONTENT/CLASSES
   width: 100%;
 }
 
-@media (min-width: 768px){
+@media only screen and (max-width: 768px){
 
-  .navbar-brand {
-
+  .navbar-toggle {
+    border-radius: 10px;
+    margin-top: 20px;
   }
+
+  .navbar-toggle .icon-bar {
+    height: 1px;
+  }
+
 }
