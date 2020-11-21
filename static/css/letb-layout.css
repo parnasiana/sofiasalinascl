@@ -196,10 +196,10 @@ CONTENT/CLASSES
     height: 1px;
   }
 
-  .header-content{
+  header .header-content {
     height: 500px;
-    padding:250px 15px;
-  }
+    padding: 250px 15px;
+}
 
   .container{
     padding: 30px 8%;
@@ -228,7 +228,7 @@ CONTENT/CLASSES
 }
 
   .square-logo, .square-footer {
-    margin: auto;
+    margin: 30px auto;
 }
 
   .square-footer{

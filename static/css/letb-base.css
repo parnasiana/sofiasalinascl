@@ -209,4 +209,8 @@ CONTENT/CLASES DE JOYERÍA
   .navbar-default .navbar-toggle {
     border-color: #432918;
 }
+  h2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
 }
