@@ -196,4 +196,42 @@ CONTENT/CLASSES
     height: 1px;
   }
 
+  .header-content{
+    height: 500px;
+    padding:250px 15px;
+  }
+
+  .container{
+    padding: 30px 8%;
+  }
+
+  .row, .service-box {
+    flex-direction: column;
+  }
+
+  .ss-button-title::after{
+    display: none;
+  }
+
+  .ss-superphrase{
+    width: 70%;
+  }
+
+  .ss-superphrase {
+    font-size: 30px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 1%;
+}
+
+  .square-logo, .square-footer {
+    margin: auto;
+}
+
+  .square-footer{
+    width: 50%;
+  }
 }
