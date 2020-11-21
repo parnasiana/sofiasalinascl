@@ -197,7 +197,7 @@ CONTENT/CLASSES
   }
 
   header .header-content {
-    height: 500px;
+    height: 600px;
     padding: 250px 15px;
 }
 
@@ -233,5 +233,27 @@ CONTENT/CLASSES
 
   .square-footer{
     width: 50%;
+  }
+
+  .circle-ss-icon {
+    width: max-content;
+    margin: 0 auto 16px;
+  }
+
+  .yellow-border-box {
+    flex-direction: column;
+  }
+
+  .obj-class{
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+
+  #photo-j, #photo-n{
+    flex-direction: column;
+  }
+  .j-photo, .n-photo {
+    width: 100%;
   }
 }
