@@ -6,7 +6,7 @@ section {
   padding: 0;
 }
 .container{
-  padding: 50px 5%;
+  padding: 100px 5% 50px;
   width: 100%;
 }
 .SSnav-logo{
@@ -197,7 +197,7 @@ CONTENT/CLASSES
   }
 
   header .header-content {
-    height: 600px;
+    height: 640px;
     padding: 250px 15px;
 }
 

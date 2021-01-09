@@ -60,7 +60,7 @@ h1 {
 }
 
 header{
-  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/SS/C%C3%93DIGO/DSC_0009.JPG);
+  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/SS/header-img.jpg);
 }
 
 p {
@@ -89,7 +89,7 @@ hr{
 }
 
 .sofia{
-  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/SS/SS_context22.jpg);
+  background-image: url(https://letb.s3-sa-east-1.amazonaws.com/SS/about-img.jpg);
   width: 100%;
   height: 700px;
   background-size: cover;
@@ -209,4 +209,12 @@ CONTENT/CLASES DE JOYERÍA
   .navbar-default .navbar-toggle {
     border-color: #432918;
 }
+  h2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .sofia {
+    background-image: url(https://letb.s3-sa-east-1.amazonaws.com/SS/about-img--mobile.jpg);
+  }
 }

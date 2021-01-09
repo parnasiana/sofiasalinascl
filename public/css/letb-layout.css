@@ -6,7 +6,7 @@ section {
   padding: 0;
 }
 .container{
-  padding: 50px 5%;
+  padding: 100px 5% 50px;
   width: 100%;
 }
 .SSnav-logo{
@@ -196,4 +196,64 @@ CONTENT/CLASSES
     height: 1px;
   }
 
+  header .header-content {
+    height: 640px;
+    padding: 250px 15px;
+}
+
+  .container{
+    padding: 30px 8%;
+  }
+
+  .row, .service-box {
+    flex-direction: column;
+  }
+
+  .ss-button-title::after{
+    display: none;
+  }
+
+  .ss-superphrase{
+    width: 70%;
+  }
+
+  .ss-superphrase {
+    font-size: 30px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 1%;
+}
+
+  .square-logo, .square-footer {
+    margin: 30px auto;
+}
+
+  .square-footer{
+    width: 50%;
+  }
+
+  .circle-ss-icon {
+    width: max-content;
+    margin: 0 auto 16px;
+  }
+
+  .yellow-border-box {
+    flex-direction: column;
+  }
+
+  .obj-class{
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+
+  #photo-j, #photo-n{
+    flex-direction: column;
+  }
+  .j-photo, .n-photo {
+    width: 100%;
+  }
 }

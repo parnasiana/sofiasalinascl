@@ -8,7 +8,6 @@
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
             {{ end }}
             {{ with .Site.Params.hero.subtitle }}
-                <p>{{ . | markdownify }}</p>
             {{ end }}
         </div>
         <div>
