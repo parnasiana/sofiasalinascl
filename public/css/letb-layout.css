@@ -221,6 +221,11 @@ CONTENT/CLASSES
     font-size: 30px;
   }
 
+  .ss-dragonfly-phrase {
+    background-image: url("https://letb.s3-sa-east-1.amazonaws.com/SS/fly-img--mobile+copy.jpg");
+    width: 100%;
+  }
+
   .footer-content {
     flex-direction: column;
     justify-content: space-between;
