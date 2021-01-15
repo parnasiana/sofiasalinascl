@@ -119,6 +119,12 @@ hr{
   font-size: 34px;
 }
 
+.brown-line{
+  height: 8px;
+  background-color: #432918;
+  width: 100%;
+}
+
 .wrap-gallery {
   background-color: #FFF;
 }
