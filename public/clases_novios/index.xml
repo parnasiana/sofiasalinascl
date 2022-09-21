@@ -5,10 +5,6 @@
     <link>https://sofiasalinas.cl/clases_novios/</link>
     <description>Recent content on Sofía Salinas - Orfebre</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://sofiasalinas.cl/clases_novios/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://sofiasalinas.cl/clases_novios/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

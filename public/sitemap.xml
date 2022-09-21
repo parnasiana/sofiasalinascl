@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://sofiasalinas.cl/clases_joyeria/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sofiasalinas.cl/clases_novios/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sofiasalinas.cl/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sofiasalinas.cl/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sofiasalinas.cl/tags/</loc>
   </url>
-  
 </urlset>
